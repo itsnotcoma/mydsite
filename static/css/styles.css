@@ -1,0 +1,262 @@
+@import "styles.css";
+@import "styles.css";
+.buttons input {
+  margin-left: 15px;
+}
+.animation {
+  width: 134px;
+  height: 123.72727273px;
+  background: url("../img/ninja.png") left center;
+  margin: 15px auto;
+}
+#Idle:checked ~ .animation {
+  animation: Idle 0.75s steps(10, end) infinite;
+}
+#Run:checked ~ .animation {
+  animation: Run 0.75s steps(10, end) infinite;
+}
+#Jump:checked ~ .animation {
+  animation: Jump 0.75s steps(10, end) infinite;
+}
+#Slide:checked ~ .animation {
+  animation: Slide 0.75s steps(10, end) infinite;
+}
+#Climb:checked ~ .animation {
+  animation: Climb 0.75s steps(10, end) infinite;
+}
+#Glide:checked ~ .animation {
+  animation: Glide 0.75s steps(10, end) infinite;
+}
+#Attack:checked ~ .animation {
+  animation: Attack 0.75s steps(10, end) infinite;
+}
+#Jump_Attack:checked ~ .animation {
+  animation: Jump_Attack 0.75s steps(10, end) infinite;
+}
+#Throw:checked ~ .animation {
+  animation: Throw 0.75s steps(10, end) infinite;
+}
+#Jump_Throw:checked ~ .animation {
+  animation: Jump_Throw 0.75s steps(10, end) infinite;
+}
+#Dead:checked ~ .animation {
+  animation: Dead 0.75s steps(10, end) infinite;
+}
+@keyframes Idle {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: -1340px 0px;
+  }
+}
+@keyframes Run {
+  from {
+    background-position: 0px -123.72px;
+  }
+  to {
+    background-position: -1340px -123.72px;
+  }
+}
+@keyframes Jump {
+  from {
+    background-position: 0px -247.45px;
+  }
+  to {
+    background-position: -1340px -247.45px;
+  }
+}
+@keyframes Slide {
+  from {
+    background-position: 0px -370.9px;
+  }
+  to {
+    background-position: -1340px -370.9px;
+  }
+}
+@keyframes Climb {
+  from {
+    background-position: 0px -494.62px;
+  }
+  to {
+    background-position: -1340px -494.62px;
+  }
+}
+@keyframes Glide {
+  from {
+    background-position: 0px -618.34px;
+  }
+  to {
+    background-position: -1340px -618.34px;
+  }
+}
+@keyframes Attack {
+  from {
+    background-position: 0px -742.06px;
+  }
+  to {
+    background-position: -1340px -742.06px;
+  }
+}
+@keyframes Jump_Attack {
+  from {
+    background-position: 0px -865.78px;
+  }
+  to {
+    background-position: -1340px -865.72px;
+  }
+}
+@keyframes Throw {
+  from {
+    background-position: 0px -989.5px;
+  }
+  to {
+    background-position: -1340px -989.5px;
+  }
+}
+@keyframes Jump_Throw {
+  from {
+    background-position: 0px -1113.22px;
+  }
+  to {
+    background-position: -1340px -1113.22px;
+  }
+}
+@keyframes Dead {
+  from {
+    background-position: 0px -1236.94px;
+  }
+  to {
+    background-position: -1340px -1236.94px;
+  }
+}
+.buttons input {
+  margin-left: 15px;
+}
+.animation {
+  width: 134px;
+  height: 123.72727273px;
+  background: url("../img/ninja.png") left center;
+  margin: 15px auto;
+}
+#Idle:checked ~ .animation {
+  animation: Idle 0.75s steps(10, end) infinite;
+}
+#Run:checked ~ .animation {
+  animation: Run 0.75s steps(10, end) infinite;
+}
+#Jump:checked ~ .animation {
+  animation: Jump 0.75s steps(10, end) infinite;
+}
+#Slide:checked ~ .animation {
+  animation: Slide 0.75s steps(10, end) infinite;
+}
+#Climb:checked ~ .animation {
+  animation: Climb 0.75s steps(10, end) infinite;
+}
+#Glide:checked ~ .animation {
+  animation: Glide 0.75s steps(10, end) infinite;
+}
+#Attack:checked ~ .animation {
+  animation: Attack 0.75s steps(10, end) infinite;
+}
+#Jump_Attack:checked ~ .animation {
+  animation: Jump_Attack 0.75s steps(10, end) infinite;
+}
+#Throw:checked ~ .animation {
+  animation: Throw 0.75s steps(10, end) infinite;
+}
+#Jump_Throw:checked ~ .animation {
+  animation: Jump_Throw 0.75s steps(10, end) infinite;
+}
+#Dead:checked ~ .animation {
+  animation: Dead 0.75s steps(10, end) infinite;
+}
+@keyframes Idle {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: -1340px 0px;
+  }
+}
+@keyframes Run {
+  from {
+    background-position: 0px -123.72px;
+  }
+  to {
+    background-position: -1340px -123.72px;
+  }
+}
+@keyframes Jump {
+  from {
+    background-position: 0px -247.45px;
+  }
+  to {
+    background-position: -1340px -247.45px;
+  }
+}
+@keyframes Slide {
+  from {
+    background-position: 0px -370.9px;
+  }
+  to {
+    background-position: -1340px -370.9px;
+  }
+}
+@keyframes Climb {
+  from {
+    background-position: 0px -494.62px;
+  }
+  to {
+    background-position: -1340px -494.62px;
+  }
+}
+@keyframes Glide {
+  from {
+    background-position: 0px -618.34px;
+  }
+  to {
+    background-position: -1340px -618.34px;
+  }
+}
+@keyframes Attack {
+  from {
+    background-position: 0px -742.06px;
+  }
+  to {
+    background-position: -1340px -742.06px;
+  }
+}
+@keyframes Jump_Attack {
+  from {
+    background-position: 0px -865.78px;
+  }
+  to {
+    background-position: -1340px -865.72px;
+  }
+}
+@keyframes Throw {
+  from {
+    background-position: 0px -989.5px;
+  }
+  to {
+    background-position: -1340px -989.5px;
+  }
+}
+@keyframes Jump_Throw {
+  from {
+    background-position: 0px -1113.22px;
+  }
+  to {
+    background-position: -1340px -1113.22px;
+  }
+}
+@keyframes Dead {
+  from {
+    background-position: 0px -1236.94px;
+  }
+  to {
+    background-position: -1340px -1236.94px;
+  }
+}
